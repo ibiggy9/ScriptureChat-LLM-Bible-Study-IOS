@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "ScriptureChat",
+    "slug": "bible",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-apple-authentication",
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf",
+      "@react-native-google-signin/google-signin",
+      
+      [
+      "expo-screen-orientation",
+      
+        {
+          "initialOrientation": "PORTRAIT_UP"
+        }],
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+         {
+          "ios": {
+             "useFrameworks": "static"
+           }
+         }
+       ]
+      
+    ],
+    "icon": "./assets/ScriptureChatIcon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/ScriptureChatSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ibiggy.bible",
+      "googleServicesFile": "./GoogleService-info.plist",
+      "buildNumber":"1.1.1"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ScriptureChatIcon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ibiggy.bible"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    
+    "extra": {
+      "eas": {
+        "projectId": "c21efe2e-9973-4da1-8f12-78be671f8a0c"
+      }
+    }
+  }
+}
