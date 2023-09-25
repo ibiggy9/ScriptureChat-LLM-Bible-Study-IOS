@@ -1,12 +1,4 @@
-/*
-DEPENDS On: 
-1) Onboarding quiz which will require that you build out a way to call that from the database. 
-2) 
 
-TO DO:
-1) Write it for
-
-*/
 
 
 import React, {createContext, useContext, useEffect, useState, useRef} from 'react'
