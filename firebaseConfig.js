@@ -9,12 +9,7 @@ import analytics from '@react-native-firebase/analytics';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCDiUOus-d_4VKcoaE1eir2E_67L-8G2BY",
-  authDomain: "bible-project-82210.firebaseapp.com",
-  projectId: "bible-project-82210",
-  storageBucket: "bible-project-82210.appspot.com",
-  messagingSenderId: "976038233878",
-  appId: "1:976038233878:web:f8cb93543911ac79cbf237"
+<Your Config>
 };
 
 
